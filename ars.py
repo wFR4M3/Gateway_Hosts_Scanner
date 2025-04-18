@@ -34,3 +34,4 @@ if __name__ == "__main__":
     threading.Thread(target=print_nmap_output, args=(gateway_ip,), daemon=True).start()
     while True:
         time.sleep(1)
+##real
